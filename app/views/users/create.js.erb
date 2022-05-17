@@ -1,0 +1,7 @@
+var body = document.getElementById("users");
+body.innerHTML = "<%= j render @user %>" + body.innerHTML;
+
+
+var input = document.getElementById("user_name");
+input.value = '';
+input.focus();
